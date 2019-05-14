@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
+    'taggit',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +121,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Email Config
+EMAIL_HOST = 'mail.flycoffees.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'test@flycoffees.com'
+EMAIL_HOST_PASSWORD = 'zYjHcNQz96'
+EMAIL_USE_TLS = True
+
+
