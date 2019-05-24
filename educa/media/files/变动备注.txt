@@ -1,0 +1,3 @@
+dev mysql wait_timeout=28800 --> 600
+	 interactive_timeout=28800 --> 600
+
